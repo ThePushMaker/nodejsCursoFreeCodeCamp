@@ -4,8 +4,6 @@
 // ./ al comienzo es la forma de indicar que el modulo está ubicado en la misma carpeta
 // const saludos = require('./saludos.js');
 
-
-
 // console.log(saludos.saludar('pepe'));
 
 // console.log(saludos.holaMundo());
@@ -17,4 +15,6 @@
 
 const { saludar, holaMundo } = require('./saludos.js');
 
+
 console.log(holaMundo());
+console.log(saludar('pepe'));
